@@ -9,7 +9,9 @@ const HeaderContainer = styled.header`
   background: rgba(255, 255, 255, 0.98);
   backdrop-filter: blur(8px);
   border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 100px;
   width: 100%;
+ 
 `;
 
 const Nav = styled.nav`
