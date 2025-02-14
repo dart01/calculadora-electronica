@@ -11,15 +11,19 @@ const HeaderContainer = styled.header`
   border-bottom: 1px solid rgba(0, 0, 0, 0.1);
   border-radius: 100px;
   width: 100%;
- 
+  height: 60px;
+  display: flex;
+  align-items: center;
 `;
 
 const Nav = styled.nav`
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 1rem 2%;
+  padding: 0 2%;
   position: relative;
+  width: 100%;
+  height: 100%;
 `;
 
 const MenuButton = styled.button`
@@ -51,6 +55,7 @@ const NavList = styled.ul`
   margin: 0;
   display: flex;
   flex-direction: column;
+  
   gap: 1rem;
 `;
 
